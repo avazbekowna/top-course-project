@@ -1,0 +1,696 @@
+@import "../../../../../top-course/src/style/variables";
+@import "../../../../../top-course/src/style/mixin";
+
+
+// 2) Frontend Two (О КУРСЕ)
+#frontend-two {
+  padding-bottom: 180px;
+
+  .frontend-two {
+    &_top {
+      font-weight: 400;
+      font-size: $font-size16;
+      color: #A5A5A5;
+    }
+
+    &_title {
+      font-weight: 700;
+      font-size: $font-size36;
+      color: $light;
+      margin: 80px 0 30px 0;
+    }
+
+    &_group {
+      @include alignment-start;
+
+      &-left {
+        width: 70%;
+
+        p {
+          font-weight: 400;
+          font-size: $font-size20;
+          line-height: 24px;
+          color: $light;
+          margin-bottom: 20px;
+        }
+      }
+
+      &-right {
+        width: 18%;
+
+        &_group {
+          margin-bottom: 60px;
+
+          p {
+            font-weight: 400;
+            font-size: $font-size20;
+            color: $light;
+            padding-bottom: 15px;
+          }
+
+          span {
+            font-weight: 600;
+            font-size: $font-size20;
+            color: $light;
+          }
+        }
+      }
+    }
+
+    &_h3 {
+      font-weight: 600;
+      font-size: $font-size20;
+      color: $light;
+      margin: 80px 0 30px 0;
+    }
+
+    &_list-group {
+      li {
+        list-style-type: disc;
+        list-style-position: inside;
+        font-weight: 400;
+        font-size: $font-size20;
+        color: $light;
+      }
+    }
+
+    &_lists {
+      @include alignment-start;
+      justify-content: normal;
+      column-gap: 108px;
+
+      ul {
+        @include d-f_fd-c_al-s;
+        row-gap: 30px;
+
+        li {
+          list-style-type: disc;
+          list-style-position: inside;
+          font-weight: 400;
+          font-size: $font-size20;
+          color: $light;
+        }
+      }
+    }
+
+    &_p {
+      width: 90%;
+      font-weight: 400;
+      font-size: $font-size20;
+      line-height: 24px;
+      color: $light;
+      margin-bottom: 22px;
+
+    }
+
+    &_buttons {
+      @include alignment;
+      justify-content: normal;
+      column-gap: 70px;
+      padding-top: 60px;
+
+      &-btn {
+        font-weight: 500;
+        font-size: $font-size16;
+        color: $light;
+        border-radius: 10px;
+      }
+
+      &-first {
+        @include button;
+        padding: 25px 80px;
+      }
+
+      &-second {
+        padding: 25px 70px;
+        border: 1px solid #044076;
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+// 3) Frontend Three (ПРОГРАММА КУРСА)
+#frontend-three {
+  padding-bottom: 200px;
+
+  .frontend-three {
+    &_title {
+      font-weight: 700;
+      font-size: $font-size36;
+      color: $light;
+      margin-bottom: 16px;
+    }
+
+    &_group {
+      @include alignment-start;
+
+      &-blogs {
+        @include d-f_fd-c_al-s;
+        row-gap: 30px;
+        width: 57%;
+
+        &_blog {
+          width: 100%;
+          border: 1px solid #044076;
+          border-radius: 10px;
+          padding: 20px 0 20px 200px;
+          position: relative;
+
+          &-number {
+            font-weight: 700;
+            font-size: $font-size20;
+            color: $light;
+            position: absolute;
+            top: 17px;
+            left: 30px;
+          }
+
+          details {
+            summary {
+              list-style: none;
+              font-weight: 500;
+              font-size: $font-size16;
+              color: $light;
+            }
+
+            div {
+              p {
+                padding: 15px 20px 0 0;
+                font-weight: 400;
+                font-size: $font-size20;
+                line-height: 28px;
+                color: $light;
+              }
+            }
+          }
+        }
+
+        &_btn {
+          @include button;
+          font-weight: 500;
+          font-size: $font-size16;
+          color: $light;
+          padding: 25px 75px;
+          border-radius: 10px;
+        }
+      }
+
+      &-bg {
+        width: 35%;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+// 4) Frontend Four (100 материалов)
+#frontend-four {
+  padding-bottom: 150px;
+
+  .frontend-four {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 108px;
+
+    &_blog {
+      padding-bottom: 14px;
+      text-align: center;
+
+      &-bg {
+        width: 95px;
+        height: 95px;
+        margin: 0 auto;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &-title {
+        font-weight: 700;
+        font-size: $font-size20;
+        color: $light;
+        margin: 40px 0 35px 0;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: $font-size20;
+        line-height: 24px;
+        color: $light;
+
+      }
+    }
+  }
+}
+
+// 6) Frontend Six (Процесс обучения)
+#frontend-six {
+  padding-bottom: 170px;
+
+  .frontend-six {
+    &_title {
+      font-weight: 700;
+      font-size: $font-size36;
+      color: $light;
+      margin-bottom: 50px;
+    }
+
+    &_blogs {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 70px;
+
+      &-blog {
+        background: linear-gradient(180deg, rgba(0, 84, 160, 0.2) 0%, rgba(0, 11, 48, 0.2) 100%);
+        border: 0.787692px solid #0272CE;
+        backdrop-filter: blur(17.3292px);
+        border-radius: 7.87692px;
+        padding: 28px 20px;
+        text-align: center;
+
+        span {
+          font-weight: 700;
+          font-size: 28.3569px;
+          color: $light;
+
+        }
+
+        h3 {
+          font-weight: 500;
+          font-size: $font-size20;
+          color: $light;
+          margin: 20px 0;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: $font-size15;
+          line-height: 18px;
+          color: $light;
+
+        }
+      }
+    }
+  }
+}
+
+// 7) Frontend Seven (Отзывы наших студентов) Slider
+#frontend-seven {
+  .frontend-seven {
+    h3 {
+      font-weight: 700;
+      font-size: $font-size36;
+      color: $light;
+      margin-bottom: 30px;
+    }
+
+    .slider {
+      height: 480px;
+      padding-left: 10px;
+    }
+
+    &_blog {
+      width: 96% !important;
+      margin-top: 80px;
+      min-height: 300px;
+      background: #102146;
+      border-radius: 10px;
+      text-align: center;
+      padding: 60px 35px 30px 35px;
+      position: relative;
+
+      &-bg {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        position: absolute;
+        top: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      h1 {
+        font-weight: 600;
+        font-size: 18px;
+        color: $light;
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        color: $light;
+        margin: 15px 0;
+      }
+
+      &-date {
+        font-weight: 600;
+        font-size: $font-size16;
+        color: $light;
+        position: absolute;
+        bottom: 20px;
+        right: 35px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 992px) { // 3) Frontend Three (ПРОГРАММА КУРСА)
+  #frontend-three {
+    .frontend-three {
+      &_title {
+        margin-bottom: 40px;
+        text-align: center;
+      }
+
+      &_group {
+        flex-direction: column;
+
+        &-blogs {
+          width: 75%;
+          margin: 0 auto;
+        }
+
+        &-bg {
+          width: 55%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  // 6) Frontend Six (Процесс обучения)
+  #frontend-six {
+    .frontend-six {
+      &_blogs {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+      }
+    }
+  }
+  // 7) Frontend Seven (Отзывы наших студентов) Slider
+  #frontend-seven {
+    .frontend-seven {
+      .slider {
+        height: 485px;
+        margin-bottom: 60px;
+      }
+
+      &_blog {
+        height: 320px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 768px) {
+  #section-one {
+    .section-one {
+      &_group {
+        flex-direction: column;
+        row-gap: 70px;
+
+        &-left {
+          width: 100% !important;
+          text-align: center;
+        }
+
+        &-right {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+  // 2) Frontend Two (О КУРСЕ)
+  #frontend-two {
+    .frontend-two {
+      &_group {
+        flex-direction: column;
+
+        &-left {
+          width: 100%;
+        }
+
+        &-right {
+          width: 100%;
+        }
+      }
+
+      &_buttons {
+        flex-direction: column;
+        row-gap: 30px;
+      }
+    }
+  }
+
+  // 3) Frontend Three (ПРОГРАММА КУРСА)
+  #frontend-three {
+    .frontend-three {
+      &_group {
+        &-blogs {
+          width: 95%;
+        }
+      }
+    }
+  }
+
+  // 4) Frontend Four (100 материалов)
+  #frontend-four {
+    .frontend-four {
+      grid-template-columns: 1fr;
+      gap: 30px;
+
+      &_blog {
+        width: 70%;
+        margin: 0 auto;
+      }
+    }
+
+  }
+  // 4) Section Four (Евгений Александрович)
+  #section-four {
+    .section-four {
+      width: 90% !important;
+
+      &_bg {
+        width: 48% !important;
+      }
+    }
+  }
+
+  // 7) Frontend Seven (Отзывы наших студентов) Slider
+  #frontend-seven {
+    .frontend-seven {
+      &_blog {
+        height: 380px;
+      }
+    }
+  }
+
+  // 6) Section Six (Остались вопросы?)
+  #section-six {
+    .section-six {
+      &_desc {
+        width: 100% !important;
+      }
+    }
+
+  }
+}
+
+@media (max-width: 576px) {
+  #section-one {
+    padding: 150px 0 90px 0 !important;
+  }
+  // 2) Frontend Two (О КУРСЕ)
+  #frontend-two {
+    .frontend-two {
+      &_lists {
+        flex-direction: column;
+        gap: 26px;
+      }
+    }
+  }
+  // 3) Frontend Three (ПРОГРАММА КУРСА)
+  #frontend-three {
+    .frontend-three {
+      &_group {
+        &-blogs {
+          &_blog {
+            padding-left: 160px;
+          }
+        }
+
+        &-bg {
+          width: 80%;
+        }
+      }
+    }
+  }
+  // 4) Frontend Four (100 материалов)
+  #frontend-four {
+    .frontend-four {
+      width: 100%;
+      grid-template-columns: 1fr;
+      gap: 20px;
+
+      &_blog {
+        width: 54%;
+        margin: 0;
+      }
+
+      .first-block {
+        justify-self: start;
+      }
+
+      .second-block {
+        justify-self: end;
+      }
+
+      .third-block {
+        justify-self: start;
+      }
+    }
+  }
+
+  // 4) Section Four (Евгений Александрович)
+  #section-four {
+    .section-four {
+      &_bg {
+        width: 58%;
+      }
+
+      h2 {
+        font-size: 28px !important;
+      }
+    }
+  }
+
+  // 6) Frontend Six (Процесс обучения)
+  #frontend-six {
+    .frontend-six {
+      &_blogs {
+        grid-template-columns: 1fr;
+        gap: 18px;
+
+        &-blog {
+          width: 60%;
+        }
+
+        .blog1 {
+          justify-self: start;
+        }
+
+        .blog2 {
+          justify-self: end;
+        }
+
+        .blog3 {
+          justify-self: start;
+        }
+
+        .blog4 {
+          justify-self: end;
+        }
+      }
+    }
+  }
+
+  // 7) Frontend Seven (Отзывы наших студентов) Slider
+  #frontend-seven {
+    .frontend-seven {
+      h3 {
+        font-size: 28px;
+        text-align: center;
+      }
+
+      &_blog {
+        height: 240px;
+      }
+    }
+
+  }
+}
+
+@media (max-width: 450px) { // 3) Frontend Three (ПРОГРАММА КУРСА)
+  #frontend-three {
+    .frontend-three {
+      &_group {
+        gap: 40px;
+
+        &-blogs {
+          &_btn {
+            padding: 15px 32px;
+          }
+        }
+
+        &-bg {
+          width: 100%;
+        }
+      }
+    }
+  }
+  // 4) Section Four (Евгений Александрович)
+  #section-four {
+    .section-four {
+      &_bg {
+        width: 68% !important;
+      }
+
+      h2 {
+        font-size: 24px !important;
+      }
+    }
+  }
+
+  // 7) Frontend Seven (Отзывы наших студентов) Slider
+  #frontend-seven {
+    padding-bottom: 80px;
+    .frontend-seven {
+      .slider {
+        width: 92%;
+        margin: 0 auto;
+        height: 500px;
+      }
+
+      &_blog {
+        height: 340px;
+      }
+    }
+
+  }
+  // 5) Section Five (Процесс обучения)
+  #section-six {
+    padding-bottom: 70px !important;
+
+    .section-six {
+      &_title {
+        font-size: 28px !important;
+        margin: 20px 0 30px 0 !important;
+      }
+
+      &_desc {
+        &-accordion {
+          label {
+            p {
+              width: 300px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,413 @@
+
+#offer{
+  margin-top: 200px;
+
+  h1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A5A5A5;
+    span{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #fdfdfd;
+
+    }
+
+
+  }
+  .register-course_group-form {
+    margin-top: 50px;
+    margin-left: 380px;
+
+    h2{
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      color: #FFFFFF;
+      margin-bottom: 50px;
+
+    }
+    #form {
+      @include d-f_fd-c_al-s;
+      row-gap: 50px;
+
+      .blog {
+        width: 500px;
+
+        fieldset {
+          border: 1px solid $light;
+          padding-left: 20px;
+          border-radius: 6px;
+          @include d-f_al-c;
+          column-gap: 6px;
+
+          legend {
+            font-weight: 400;
+            font-size: $font-size16;
+            color: $light;
+          }
+
+          input {
+            width: 100%;
+            padding: 10px 0 16px 5px;
+            color: $light;
+            font-size: 18px;
+            font-weight: 500;
+            background: transparent;
+          }
+
+          select {
+            font-weight: 400;
+            font-size: $font-size20;
+            color: $light;
+            background-color: transparent;
+            border: none;
+            outline: none;
+
+            option {
+              background-color: $bg-light;
+            }
+          }
+        }
+      }
+
+      .form-title {
+        width: 100%;
+        font-weight: 400;
+        font-size: 16px;
+        color: $light;
+      }
+
+      .form-group {
+        width: 59%;
+        @include alignment;
+
+        &_block {
+          width: 46%;
+          padding: 18px 0 18px 40px;
+          border: 1px solid #FFFFFF;
+          border-radius: 6px;
+          @include alignment;
+          justify-content: normal;
+          column-gap: 10px;
+
+          input {
+            width: 30px;
+            height: 30px;
+            accent-color: $bg-light;
+          }
+
+          span {
+            font-weight: 500;
+            font-size: $font-size20;
+            color: $light;
+          }
+        }
+
+        .first-block {
+          width: 46%;
+        }
+
+        .second-block {
+          width: 46%;
+        }
+      }
+
+      .form-btn {
+        display: block;
+        width: 57%;
+        @include button;
+        text-align: center;
+        font-weight: 400;
+        font-size: 24px;
+        padding: 23px 0;
+        color: $light;
+      }
+
+      .form-check {
+        @include alignment-start;
+        justify-content: normal;
+        column-gap: 20px;
+
+        input {
+          width: 40px;
+          height: 40px;
+          background: transparent;
+          accent-color: $bg-light;
+          border: 1px solid #FFFFFF;
+          border-radius: 5px;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: $font-size15;
+          line-height: 24px;
+          color: $light;
+        }
+      }
+
+      .every{
+        p{
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 29px;
+          color: #FFFFFF;
+          margin-top: 20px;
+        }
+        h4{
+          width: 544.65px;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 29px;
+          color: #FFFFFF;
+          margin-top: 20px;
+        }
+
+        &-bob{
+          h1{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+            margin-top: 30px;
+
+          }
+
+          button{
+            width: 303.71px;
+            height: 55px;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+            background: #0A1128;
+            box-shadow: 10px 10px 22px -117px #132049, -4px -3px 25px #040B23;
+            border-radius: 10px;
+            margin-top: 30px;
+
+          }
+        }
+        &-did{
+          h3{
+            width: 405px;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+            margin-top: 30px;
+
+          }
+          p{
+            width: 655px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+          }
+        }
+
+
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px){
+  //#offer .register-course_group-form #form .blog {
+  //  width: 770px;
+  //  margin-left: -102px;
+  //
+  //}
+  //#offer .register-course_group-form #form .form-group {
+  //  width: 84%;
+  //
+  //}
+  //#offer .register-course_group-form #form .form-group {
+  //  width: 73%;
+  //}
+}
+@media (max-width: 1200px) {
+  #offer .register-course_group-form #form .form-group {
+    width: 71%;
+
+  }
+  #offer .register-course_group-form {
+    margin-left: 230px;
+  }
+
+
+  
+}
+@media (max-width: 992px) {
+  #offer .register-course_group-form {
+    margin-left: 190px;
+  }
+}
+@media(max-width: 768px){
+  #offer .register-course_group-form {
+    margin-left: 81px;
+  }
+  #offer .register-course_group-form #form .every-did p {
+    width: 522px;
+    font-size: 17px;
+  }
+  #offer .register-course_group-form #form .every p {
+    font-size: 19px;
+    margin-top: 12px;
+  }
+  #offer .register-course_group-form #form .every h4 {
+    width: 480.65px;
+    font-size: 19px;
+  }
+  #offer .register-course_group-form #form .every-bob h1 {
+    font-size: 20px;
+    margin-top: 14px;
+  }
+  #offer .register-course_group-form #form .form-title {
+    width: 39%;
+
+  }
+  #offer .register-course_group-form #form .form-group {
+    width: 81%;
+  }
+  #offer .register-course_group-form #form .form-btn {
+    width: 81%;
+    font-size: 22px;
+    padding: 16px 0;
+  }
+  #offer .register-course_group-form h2 {
+    font-size: 30px;
+    margin-bottom: 26px;
+  }
+}
+@media (max-width: 576px){
+  #offer .register-course_group-form #form .blog {
+    width: 385px;
+  }
+  #offer .register-course_group-form #form .form-group {
+    width: 88%;
+  }
+  #offer .register-course_group-form #form .form-title {
+    width: 59%;
+  }
+  #offer .register-course_group-form #form .form-group_block {
+    width: 43%;
+    padding: 5px 0 18px 27px;
+  }
+  #offer .register-course_group-form #form .every-did p {
+    width: 349px;
+    font-size: 12px;
+  }
+  #offer .register-course_group-form #form .every-did h3 {
+    width: 309px;
+    font-size: 18px;
+  }
+  #offer .register-course_group-form #form .every-bob button {
+    width: 227.71px;
+    height: 45px;
+    font-size: 17px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 450px) {
+  #offer .register-course_group-form #form .blog {
+    width: 295px;
+  }
+  #offer .register-course_group-form #form .form-title {
+    width: 74%;
+  }
+  #offer .register-course_group-form #form .form-group_block span {
+    font-size: 11px;
+  }
+  #offer .register-course_group-form #form .form-group {
+    width: 92%;
+  }
+  #offer .register-course_group-form #form .form-group_block input {
+    width: 15px;
+    height: 15px;
+  }
+  #offer .register-course_group-form #form .form-group_block {
+    width: 42%;
+    padding: 16px 0 18px 16px;
+  }
+  #offer .register-course_group-form #form .blog fieldset input {
+    width: 93%;
+    padding: 10px 0 16px 5px;
+    font-size: 14px;
+  }
+  #offer .register-course_group-form #form .blog fieldset {
+    padding-left: 7px;
+  }
+  #offer .register-course_group-form #form .every h4 {
+    width: 346.65px;
+    font-size: 13px;
+    line-height: 21px;
+  }
+  #offer .register-course_group-form #form .every p {
+    font-size: 13px;
+    margin-top: -5px;
+  }
+  #offer .register-course_group-form #form .every-bob button {
+    width: 174.71px;
+    height: 40px;
+    font-size: 12px;
+    margin-top: 14px;
+  }
+  #offer .register-course_group-form #form .every-bob h1 {
+    font-size: 16px;
+  }
+  #offer .register-course_group-form #form .every-did h3 {
+    width: 237px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  #offer .register-course_group-form #form .every p {
+    font-size: 10px;
+    margin-top: -5px;
+    width: 234px;
+  }
+  #offer .register-course_group-form #form .form-btn {
+    width: 90%;
+    font-size: 18px;
+    padding: 10px 0;
+  }
+  #offer h1 {
+    font-size: 11px;
+  }
+  #offer h1 span {
+    font-size: 11px;
+  }
+  #offer .register-course_group-form #form .blog {
+    width: 247px;
+  }
+  #offer .register-course_group-form #form .form-title {
+    width: 87%;
+  }
+  #offer .register-course_group-form #form .every h4 {
+    width: 219.65px;
+    font-size: 13px;
+    line-height: 21px;
+  }
+  #offer .register-course_group-form h2 {
+    font-size: 24px;
+    margin-bottom: 19px;
+  }
+  #offer .register-course_group-form #form .blog fieldset select {
+    font-size: 12px;
+  }
+  #offer .register-course_group-form #form .blog fieldset legend {
+    font-size: 12px;
+  }
+
+  }
+@media (max-width: 400px) {
+  #offer .register-course_group-form {
+    margin-left: 56px;
+  }
+
+  #offer .register-course_group-form #form .form-group {
+    width: 81%;
+  }
+}

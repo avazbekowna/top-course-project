@@ -1,0 +1,510 @@
+//ABOUT SECTION START
+#about_hero {
+  padding-top: 10vw;
+
+  .about_hero_content {
+    .hero_were {
+      padding-bottom: 30px;
+
+      .hero_were_p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+      }
+    }
+
+    .content_title {
+      h1 {
+
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+      }
+
+    }
+
+    .content_image {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+  }
+}
+
+//ABOUT SECTION END
+
+//SERTIFICAT SECTION START
+#sertificat {
+  .sertificat_top {
+    .top_bottom {
+      padding-top: 10vw;
+
+      h1 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 60px;
+        color: #FFFFFF;
+        text-align: center;
+
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-bottom: 10px;
+
+      }
+    }
+
+    .top_img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+  }
+}
+
+//SERTIFIVAT SECTION END
+
+//STUDENT SECTION START
+#student {
+  .tap_student {
+    .student_was {
+      h1 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        color: #FFFFFF;
+        text-align: center;
+      }
+    }
+
+  }
+}
+
+#slider {
+  margin: 10px 0;
+
+  .slider--general {
+    h3 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      text-align: center;
+      padding: 100px 0;
+      color: #FFFFFF;
+    }
+
+    &__block {
+      width: 95% !important;
+      height: 292px;
+      background: #034078;
+      border-radius: 10px;
+      margin: 100px 0;
+
+      img {
+        width: 25%;
+        height: 28%;
+        margin-left: 140px;
+        margin-top: -40px;
+      }
+    }
+
+    h1 {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 20px;
+      text-align: center;
+      color: #FFFFFF;
+      width: 307px;
+      margin-left: 10%;
+    }
+
+    h2 {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      margin-left: 70%;
+      color: #FFFFFF;
+    }
+  }
+}
+
+//STUDENT SECTION END
+
+// WORK SECTION START
+.form_school {
+  padding:0;
+
+  .form_school_content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between !important;
+    color: white;
+
+    .form_text {
+      p {
+        margin: 30px 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+
+    .form_input {
+      .name {
+        width: 610px;
+        height: 57px;
+        background: rgba(27, 41, 89, 0.4);
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0 30px;
+      }
+
+      .call_form_school {
+        margin: 30px 0;
+
+        .call_form {
+          width: 610px;
+          height: 57px;
+          background: rgba(27, 41, 89, 0.4);
+          border-radius: 10px;
+          border: none;
+          outline: none;
+          color: #FFFFFF;
+          font-size: 20px;
+          padding: 0 30px;
+        }
+      }
+
+      .gmail_form {
+        width: 610px;
+        height: 57px;
+        background: rgba(27, 41, 89, 0.4);
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0 30px;
+      }
+
+      .button_form_school {
+        margin: 30px 0;
+
+        .button_form {
+          width: 271px;
+          height: 56px;
+          background: #044076;
+          border-radius: 10px;
+          border: none;
+          user-select: none;
+          color: #FFFFFF;
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1200px) {
+  #about_hero {
+    .about_hero_content {
+      .content_image {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        img {
+          margin: 20px 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #about_hero .about_hero_content {
+    .content_image {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .hero_were {
+      display: none;
+    }
+  }
+
+  #slider {
+    .slider--general {
+      .slider--general__block img {
+        margin-left: 110px;
+      }
+
+      .slider--general__block {
+        height: 362px;
+
+        h2 {
+          margin-left: 60%;
+          margin-top: 10px;
+        }
+
+        p {
+          width: 250px !important;
+          margin-left: 7%;
+        }
+      }
+
+
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #slider .slider--general .slider--general__block {
+    p {
+      margin-left: 19%;
+    }
+
+    img {
+      margin-left: 157px;
+    }
+
+  }
+}
+
+@media (max-width: 768px) {
+  #about_hero {
+    padding-top: 20vh;
+
+    .about_hero_content {
+
+    }
+  }
+  #slider .slider--general .slider--general__block {
+    img {
+      margin-left: 180px;
+    }
+
+    p {
+      margin-left: 11%;
+    }
+
+  }
+  .form_school {
+    .form_school_content {
+      .form_text {
+        margin-left: 50px;
+        text-align: center;
+      }
+
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      .form_input {
+        margin-left: 10px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .sertificat {
+    .top_img img {
+      width: 100%;
+
+    }
+  }
+  #slider .slider--general .slider--general__block {
+    height: 350px !important;
+    margin-left: 10px;
+
+    p {
+      margin-left: 22%;
+    }
+  }
+  .form_school {
+    .form_school_content {
+      .form_input {
+        margin-left: -210px;
+
+        .name_form {
+          .name {
+            width: 150% !important;
+          }
+        }
+
+        .call_form_school {
+          .call_form {
+            width: 150% !important;
+          }
+        }
+
+        .gmail_form_school {
+          .gmail_form {
+            width: 150% !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 451px) {
+  #about_hero {
+    .about_hero_content {
+      .content_image {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .form_school {
+    .form_school_content {
+      .form_text {
+        margin-right: 60px;
+      }
+
+      .form_input {
+        margin-left: 10px;
+
+        .name_form {
+          .name {
+            width: 100% !important;
+          }
+        }
+
+        .call_form_school {
+          .call_form {
+            width: 100% !important;
+          }
+        }
+
+        .gmail_form_school {
+          .gmail_form {
+            width: 100% !important;
+          }
+        }
+      }
+    }
+  }
+  #slider {
+    .slick-prev:before {
+      display: none;
+    }
+
+    .slick-next:before {
+      display: none;
+    }
+
+    .slider--general {
+      .slider--general__block {
+        img {
+          margin-left: 150px;
+        }
+
+        height: 360px;
+
+        p {
+          margin-left: 15%;
+        }
+      }
+
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #slider {
+    margin-right: 30px !important;
+  }
+}
+
+@media (max-width: 376px) {
+  #about_hero {
+  }
+  #sertificat {
+  }
+  #slider {
+    //margin-left: 30px !important;
+    margin-right: -10px !important;
+
+    .slider--general .slider--general__block {
+      img {
+        margin-left: 125px;
+      }
+
+      p {
+        margin-left: 10%;
+      }
+
+      height: 370px !important;
+      margin-left: 10px !important;
+    }
+  }
+  .form_school {
+    .form_text {
+      margin-right: 5px !important;
+    }
+
+    margin-right: 40px;
+    margin-left: -10px;
+  }
+}
+
+@media (max-width: 320px) {
+  #about_hero {
+    margin-left: 15px;
+    width: 100%;
+  }
+  #sertificat {
+    margin-left: 15px;
+    width: 100%;
+  }
+  #slider .slider--general .slider--general__block {
+    p {
+      margin-left: 6%;
+    }
+
+    img {
+      margin-left: 100px;
+    }
+  }
+}
+
+
+
+
+

@@ -1,0 +1,1531 @@
+#master{
+  padding: 0;
+  .master_class{
+    padding-top:140px;
+    .master_bot{
+
+      .master_class_p{
+        p{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          color: #A5A5A5;
+          padding-bottom: 80px;
+
+        }
+        span{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          color: #fff;
+
+        }
+      }
+      .java{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .java_top{
+          padding-bottom: 10rem;
+          h1{
+            width: 668px;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            color: #FFFFFF;
+            padding-bottom: 30px;
+
+
+          }
+          p{
+            width: 641px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+            padding-bottom: 45px;
+          }
+          .btn{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+            width: 327px;
+            height: 70px;
+            left: 134px;
+            top: 1441px;
+            background: #044076;
+            box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.2), 3px 2px 13px rgba(0, 0, 0, 0.07);
+            border-radius: 10px;
+            border: none;
+            &_hover{
+              background: transparent;
+
+            }
+
+          }
+        }
+        .java_day{
+          margin-left: 70px;
+          padding-bottom: 21rem;
+          .day_da{
+
+          }
+          h3{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+          }
+          h1{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+            margin-top:7px;
+          }
+        }
+        .day_ba{
+          margin-top: 40px;
+          h3{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+            padding-top: 40px;
+          }
+          h1{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+
+          }
+        }
+
+      }
+    }
+  }
+}
+
+#class{
+  .class_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .class_week{
+      .text_p{
+        p{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          color: #A5A5A5;
+          margin-left: 30px;
+        }
+      }
+      .text_we{
+        .we_bottom{
+          padding-top: 30px;
+          h1{
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            color: #FFFFFF
+          }
+          p{
+            width: 738px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+            padding-top: 30px;
+          }
+        }
+        .we_file{
+          h1{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+            padding-top:60px;
+            padding-bottom:30px;
+
+          }
+          .file_circle{
+            li{
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 24px;
+              color: #FFFFFF;
+              margin-bottom:10px;
+
+            }
+          }
+        }
+        .buttons{
+          display: flex;
+          .button{
+            padding-top: 40px;
+            .btn1{
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 20px;
+              color: #FFFFFF;
+              width: 302px;
+              height:64px;
+              left: 134px;
+              top: 1441px;
+              background: #044076;
+              box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.2), 3px 2px 13px rgba(0, 0, 0, 0.07);
+              border-radius: 10px;
+              border: none;
+              &_hover{
+                background-color: white;
+                color: black;
+                -webkit-transition: all 0.4s;
+                -moz-transition: all 0.4s;
+                transition: all 0.4s;
+              }
+
+            }
+
+          }
+          .button1{
+            padding-top: 41px;
+            .btn2{
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 20px;
+              color: #FFFFFF;
+              width: 302px;
+              height: 64px;
+              left: 134px;
+              top: 1441px;
+              border-radius: 10px;
+              background:transparent;
+              border:2px solid   #043C6F;
+              margin-left: 40px;
+              box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.2), 3px 2px 13px rgba(0, 0, 0, 0.07);
+
+
+            }
+          }
+        }
+      }
+    }
+    .access{
+      padding-bottom:150px;
+      .access_days{
+
+        h3{
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          color: #FFFFFF;
+        }
+        h1{
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
+          margin-top:7px;
+          color: #FFFFFF;
+        }
+      }
+      .access_das{
+        margin-top: 70px;
+        h3{
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          color: #FFFFFF;
+        }
+        h1{
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
+          margin-top:7px;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
+
+#program{
+
+  .program_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .block_input{
+      h1{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        color: #FFFFFF;
+        padding-top:8rem;
+
+      }
+      .tops{
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 36px;
+        padding: 0 40px;
+        line-height: 44px;
+        color: #FFFFFF;
+        width: 602px;
+        height: 60px;
+        left: 134px;
+        top: 1441px;
+        border-radius: 10px;
+        background:transparent;
+        box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.2), 3px 2px 13px rgba(0, 0, 0, 0.07);
+        border: 1px solid #044076;
+        margin-top:25px;
+        span{
+          font-weight: 500;
+          padding: 0 30px;
+          font-size: 16px;
+          line-height: 20px;
+          color: #FFFFFF;
+
+        }
+      }
+      .buy{
+        padding-top: 40px;
+        button{
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          color: #FFFFFF;
+          width: 327px;
+          height: 70px;
+          left: 134px;
+          top: 1441px;
+          background: #044076;
+          box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.2), 3px 2px 13px rgba(0, 0, 0, 0.07);
+          border-radius: 10px;
+          border: none;
+
+        }
+      }
+    }
+    .image{
+      //width: 90%;
+    }
+  }
+  .develop{
+    //margin-left: 23rem;
+    .image_man{
+      padding-top:15rem;
+      margin-left: 22rem;
+    }
+    .develop_text{
+      margin-top: 10px;
+      h4{
+        text-align: center;
+        font-weight: 500;
+        font-size:16px;
+        line-height: 24px;
+        color: #A5A5A5;
+
+      }
+      h1{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top:15px;
+      }
+      h3{
+        font-weight: 400;
+        font-size:18px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom:13rem;
+      }
+    }
+  }
+}
+
+#process{
+  .process_learning{
+    .learning_h1{
+      h1{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        color: #FFFFFF;
+        padding-bottom: 15px;
+      }
+      p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        width: 770px;
+        color: #FFFFFF;
+
+      }
+    }
+    .community{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .community_last{
+        padding-top:40px;
+        .last{
+          display: flex;
+
+        .last_app{
+          width: 300px;
+          height: 300px;
+          left: 135px;
+          top: 3476px;
+          background: linear-gradient(180deg, rgba(0, 84, 160, 0.2) 0%, rgba(0, 11, 48, 0.2) 100%);
+          border: 1px solid #0272CE;
+          backdrop-filter: blur(22px);
+          border-radius: 10px;
+          margin-right:30px;
+          margin-top: 30px;
+
+          h1{
+            font-size: 36px;
+            line-height: 44px;
+            text-align: center;
+            color: #FFFFFF;
+            padding-top:55px;
+
+          }
+          h2{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: #FFFFFF;
+            padding-top:15px;
+          }
+          p{
+            width: 242px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            padding-top: 20px;
+            color: #fff;
+            margin-left: 31px;
+          }
+        }
+          .last2{
+            display: flex;
+            .last_app{
+              width: 300px;
+              height: 300px;
+              left: 135px;
+              top: 3476px;
+              background: linear-gradient(180deg, rgba(0, 84, 160, 0.2) 0%, rgba(0, 11, 48, 0.2) 100%);
+              border: 1px solid #0272CE;
+              backdrop-filter: blur(22px);
+              border-radius: 10px;
+              margin-right:30px;
+              margin-top: 30px;
+
+              h1{
+                font-size: 36px;
+                line-height: 44px;
+                text-align: center;
+                color: #FFFFFF;
+                padding-top:55px;
+
+              }
+              h2{
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+                color: #FFFFFF;
+                padding-top:15px;
+              }
+              p{
+                width: 242px;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                padding-top: 20px;
+                color: #fff;
+                margin-left: 31px;
+              }
+            }
+          }
+        }
+
+      }
+      .community_past{
+        padding-bottom:6rem;
+        .past{
+          width: 400px;
+          height: 470px;
+          left: 905px;
+          top: 3476px;
+          background: #FFFFFF;
+          border-radius: 10px;
+
+          h1{
+            width:340px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+            padding-top:40px;
+            margin-left: 20px;
+          }
+          h3{
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            margin-left:3rem;
+            padding-top:20px;
+            color: #000000;
+            padding-bottom:20px;
+          }
+          .past_icons{
+            .past_ch{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              .ch_icon{
+                color: #0A1128;
+                font-size:17px;
+                margin: 10px;
+              }
+              h4{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 25px;
+                color: #000000;
+
+              }
+            }
+            .past_che{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              .ch_icon{
+                color: #0A1128;
+                font-size:17px;
+                margin: 10px;
+              }
+              h4{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 25px;
+                color: #000000;
+                margin-right: 5rem;
+              }
+            }
+            .past_chs{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              .ch_icon{
+                color: #0A1128;
+
+                font-size:17px;
+                margin: 10px;
+              }
+              h4{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 25px;
+                color: #000000;
+                margin-right:25px;
+              }
+            }
+          }
+          .btn{
+            margin-left:37px;
+            padding-top:40px;
+            button{
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 20px;
+              color: #FFFFFF;
+              width: 327px;
+              height: 70px;
+              left: 134px;
+              top: 1441px;
+              border: none;
+              background: #044076;
+              box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.2), 3px 2px 13px rgba(0, 0, 0, 0.07);
+              border-radius: 10px;
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#com_accordion {
+  padding-bottom: 30px;
+  .com_accordion {
+    h1{
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #A5A5A5;
+      padding-top:10rem;
+      padding-bottom: 20px;
+    }
+    .com_acc{
+      h3{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        color: #FFFFFF;
+        padding-bottom:6rem;
+      }
+    }
+
+    &_group {
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      row-gap: 44px;
+
+      h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 45px;
+        color: #FFFFFF;
+        text-align: center;
+      }
+    }
+
+    &_desc {
+      width: 65%;
+
+      &-accordion {
+        width: 100%;
+        padding: 20px 0 10px 0;
+        border-bottom: 0.5px solid #9099A3;
+
+        input {
+          display: none;
+        }
+
+        &_label {
+          font-size: 20px;
+          line-height: 24px;
+          color: #FFFFFF;
+          display: flex;
+          align-items: end;
+          justify-content: space-between;
+
+          p {
+            margin-right: 100px;
+          }
+
+          &-icon {
+            font-size: 22px;
+          }
+        }
+
+        &_content {
+          margin-top: 2px;
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.6s ease-in;
+
+          div {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #fff;
+            padding: 15px 0;
+          }
+        }
+
+        input:checked + .com_accordion_desc-accordion_label .com_accordion_desc-accordion_label-icon {
+          transform: rotate(180deg);
+        }
+
+        input:checked ~ .com_accordion_desc-accordion_content {
+          max-height: 500px;
+        }
+      }
+    }
+  }
+}
+
+
+// MEDIA
+
+
+
+@media (max-width: 1024px) {
+  .java_day {
+    margin-left: 70px;
+    padding-bottom: 19rem;
+  }
+  #program .develop .develop_text {
+    margin-top: 10px;
+    margin-left: 16rem;
+  }
+  #process .process_learning .community .community_past .past {
+    width: 381px;
+    height: 463px;
+    left: 905px;
+    top: 3476px;
+    background: #FFFFFF;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  #program .program_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  #program .program_block.image{
+    margin-left: 149px;
+    padding-top: 55px;
+  }
+  #program .develop .image_man {
+    padding-top: 15rem;
+    margin-left: 16rem;
+  }
+  #program .develop .develop_text {
+    margin-top: 10px;
+    margin-left: 4rem;
+  }
+  #process .process_learning .community {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  #process .process_learning .community .community_past {
+    padding-bottom: 0rem;
+    padding-top: 30px;
+  }
+  #process .process_learning .learning_h1 h1 {
+    font-size: 36px;
+    line-height: 44px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  #process .process_learning .learning_h1 p {
+    font-size: 20px;
+    line-height: 24px;
+    width: 634px;
+    text-align: center;
+    margin-left: 8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #class .class_text .class_week .text_we .we_bottom p {
+    width: 660px;
+
+  }
+  #class .class_text .class_week .text_we .we_file .file_circle li {
+    width: 485px;
+
+  }
+  #master .master_class .master_bot .master_class_p p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    color: #A5A5A5;
+    margin-right: 10rem;
+    padding-bottom: 80px;
+  }
+  #master .master_class .master_bot .java .java_top p {
+    width: 520px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-bottom: 45px;
+  }
+  #class .class_text .class_week .text_p p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A5A5A5;
+  }
+  #master .master_class .master_bot .java {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  #master .master_class .master_bot .java .java_day {
+    margin-left: -27rem;
+    margin-top: -7rem;
+  }
+  #master .master_class .master_bot .java .day_ba {
+    margin-top: -17px;
+  }
+  #class .class_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 6rem;
+  }
+  .class_week{
+    margin-top: -15rem;
+  }
+  .access{
+    display: none;
+  }
+  #program .develop .image_man {
+    padding-top: 11rem;
+    margin-left: 10rem;
+  }
+  #process .process_learning .learning_h1 p {
+    font-size: 20px;
+    line-height: 24px;
+    width: 634px;
+    text-align: center;
+    margin-left: 1rem;
+  }
+  #class .class_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+  #class .class_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 2rem;
+  }
+
+}
+
+@media (max-width: 576px) {
+  #master .master_class .master_bot .master_class_p p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #A5A5A5;
+    margin-right: -6rem;
+    padding-bottom: 80px;
+  }
+  #master .master_class .master_bot .java .java_top h1 {
+    width: 534px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+  }
+  #master .master_class .master_bot .java .java_top p {
+    width: 491px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-bottom: 45px;
+  }
+  #master .master_class .master_bot .java .java_top {
+    padding-bottom: 10rem;
+    margin-left: 1rem;
+  }
+  #master .master_class .master_bot .java .java_day {
+    margin-left: -16rem;
+    margin-top: -8rem;
+  }
+  #class .class_text .class_week .text_p p {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  #class .class_text .class_week .text_we .we_bottom p {
+    width: 491px;
+    font-size: 19px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 30px;
+  }
+  .text_we {
+    margin-right: 83px;
+  }
+  .button1 {
+    margin-left: -37px;
+    padding-top: 37px;
+  }
+  #program .program_block .block_input .tops {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 36px;
+    padding: 0 40px;
+    line-height: 44px;
+    color: #FFFFFF;
+    width: 487px;
+    height: 60px;
+    left: 134px;
+    top: 1441px;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: -2px -2px 8px rgb(0 0 0 / 20%), 3px 2px 13px rgb(0 0 0 / 7%);
+    border: 1px solid #044076;
+    margin-top: 25px;
+  }
+  .block_input {
+    margin-left: 1rem;
+  }
+  #program .program_block .block_input h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #FFFFFF;
+    padding-top: 8rem;
+    margin-left: -7px;
+  }
+  #program .develop .image_man {
+    padding-top: 11rem;
+    margin-left: 4rem;
+    width:83%;
+  }
+  #program .develop .develop_text {
+    margin-top: 10px;
+    margin-left: 2rem;
+  }
+  #program .develop .develop_text h1 {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 44px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 15px;
+  }
+  #process .process_learning .learning_h1 h1 {
+    font-size: 36px;
+    line-height: 44px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  #process .process_learning .learning_h1 p {
+    font-size: 20px;
+    line-height: 24px;
+    width: 494px;
+    text-align: center;
+    margin-left: 1rem;
+  }
+  #process .process_learning .community .community_last .last .last_app {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(180deg, rgba(0, 84, 160, 0.2) 0%, rgba(0, 11, 48, 0.2) 100%);
+    border: 1px solid #0272CE;
+    margin-right: 30px;
+    margin-top: 30px;
+  }
+  #process .process_learning .community .community_last .last .last2 {
+    display: flex;
+    margin-left: 70px;
+  }
+  #process .process_learning .community {
+    margin-left: 170px;
+  }
+  #process .process_learning .community .community_past {
+    margin-right: 142px;
+  }
+  #class .class_text .class_week .text_p p {
+    margin-left: 52px;
+  }
+  #process .process_learning .community .community_last .last .last_app p {
+    width: 258px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 20px;
+  }
+  #process .process_learning .community .community_last {
+    padding-top: 40px;
+    margin-right: 8rem;
+  }
+  #process .process_learning .community .community_last .last {
+    display: flex;
+    flex-direction: column;
+
+    #process .process_learning .community .community_last .lasts {
+      display: flex;
+      margin-left: 10rem;
+    }
+
+    #com_accordion .com_accordion_desc {
+      width: 90%;
+    }
+
+    #com_accordion .com_accordion_desc-accordion_label p {
+      margin-right: 100px;
+    }
+
+    #com_accordion .com_accordion h1 {
+      display: none;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #com_accordion .com_accordion .com_acc h3 {
+      font-size: 36px;
+      line-height: 44px;
+      padding-bottom: 4rem;
+      padding-top: 10rem;
+    }
+
+    #header .header .burger {
+      display: block;
+      position: fixed;
+      top: 10px;
+      right: 60px;
+      z-index: 106;
+    }
+
+    #com_accordion .com_accordion_desc-accordion_label {
+      font-size: 18px;
+
+    }
+
+  }
+}
+
+@media (max-width: 451px) {
+  #class .class_text .class_week .text_p p {
+    font-size: 16px;
+    margin-left: 30px;
+  }
+  #master .master_class .master_bot .master_class_p p {
+    font-size: 11px;
+    line-height: 20px;
+    color: #A5A5A5;
+    margin-right: -7rem;
+    padding-bottom: 80px;
+  }
+  #master .master_class .master_bot .master_class_p span {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color: #fff;
+  }
+  #master .master_class .master_bot .java .java_top h1 {
+    width: 347px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+  }
+  #master .master_class .master_bot .java .java_top p {
+    width: 418px;
+    font-size: 17px;
+    line-height:22px;
+    padding-bottom: 45px;
+  }
+  #master .master_class .master_bot .java .java_day {
+    margin-left: -11rem;
+    margin-top: -8rem;
+  }
+  #class .class_text .class_week .text_we .we_bottom h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #FFFFFF;
+  }
+  #class .class_text .class_week .text_we .we_bottom p {
+    width: 398px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-top: 30px;
+  }
+  #program .program_block .block_input h1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 44px;
+    color: #FFFFFF;
+    padding-top: 8rem;
+    margin-left: -7px;
+  }
+  #program .program_block .block_input .tops {
+    display: flex;
+    align-items: center;
+    font-size: 27px;
+    padding: 0 40px;
+    width: 395px;
+    height: 60px;
+    margin-top: 25px;
+  }
+  #program .program_block .block_input h1 {
+    font-size: 22px;
+    line-height: 44px;
+    padding-top: 8rem;
+    margin-left: 6px;
+  }
+  .image_nam{
+    width: 105%;
+  }
+  #program .develop .image_man {
+    padding-top: 11rem;
+    margin-left: 1rem;
+  }
+  #process .process_learning .learning_h1 h1 {
+  font-size: 30px;
+  line-height: 44px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+  #process .process_learning .learning_h1 p {
+    font-size: 19px;
+    line-height: 24px;
+    width: 386px;
+    text-align: center;
+    margin-left: 1rem;
+  }
+  #process .process_learning .community .community_last .last {
+    display: flex;
+    margin-left: 7rem;
+    flex-direction: column;
+  }
+  #process .process_learning .community .community_last .last2 {
+    display: flex;
+    margin-left: 61px;
+  }
+  #header .header .burger {
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 60px;
+    z-index: 106;
+  }
+}
+
+@media (max-width: 400px) {
+  #master .master_class .master_bot .master_class_p p {
+    display: none;
+  }
+  #master .master_class .master_bot .java .java_top h1 {
+    width: 320px;
+    font-size: 27px;
+    line-height: 44px;
+    padding-bottom: 28px;
+    padding-top: 30px;
+  }
+  #master .master_class .master_bot .java .java_top p {
+    width: 363px;
+    font-size: 17px;
+    line-height: 22px;
+    padding-bottom: 45px;
+  }
+  #master .master_class .master_bot .java .java_day {
+    margin-left: -7rem;
+    margin-top: -8rem;
+  }
+  #class .class_text .class_week .text_we .we_bottom p {
+    width: 360px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-top: 30px;
+  }
+  #program .program_block .block_input h1 {
+    font-size: 20px;
+    line-height: 44px;
+    padding-top: 8rem;
+    margin-left: 6px;
+  }
+  #program .program_block .block_input .tops {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding: 0 40px;
+    width: 328px;
+    height: 60px;
+    margin-top: 25px;
+  }
+  #program .program_block .block_input .tops span {
+    font-weight: 500;
+    padding: 0 30px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  .image_nam {
+    width: 100%;
+  }
+  #program .develop .develop_text h1 {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 44px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 15px;
+  }
+  #process .process_learning .learning_h1 p {
+    font-size: 19px;
+    line-height: 24px;
+    width: 378px;
+    text-align: center;
+    margin-left: 0rem;
+  }
+  #process .process_learning .community .community_last .last .last_app {
+    width: 280px;
+    height: 280px;
+    background: linear-gradient(180deg, rgba(0, 84, 160, 0.2) 0%, rgba(0, 11, 48, 0.2) 100%);
+    border: 1px solid #0272CE;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+  #process .process_learning .community .community_last .last .last2 .last_app {
+    width: 280px;
+    height: 280px;
+  }
+  #process .process_learning .community .community_past .past {
+    width: 372px;
+    height: 446px;
+    border-radius: 10px;
+  }
+  #process .process_learning .community .community_past .past .btn {
+    margin-left: 24px;
+    padding-top: 40px;
+  }
+  #com_accordion .com_accordion .com_acc h3 {
+    font-size: 30px;
+    line-height: 44px;
+    padding-bottom: 1rem;
+    padding-top: 9rem;
+  }
+  #com_accordion .com_accordion_desc-accordion_label {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  #master .master_class .master_bot .java .java_top p {
+    width: 300px;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 47px;
+    padding-bottom: 45px;
+  }
+  #master .master_class .master_bot .java .java_top h1 {
+    width: 310px;
+    font-size: 27px;
+    line-height: 33px;
+    padding-bottom: 28px;
+    padding-top: 30px;
+    text-align: center;
+    margin-left: 30px;
+  }
+  #master .master_class .master_bot .java .java_day {
+    margin-left: -6rem;
+    margin-top: -8rem;
+  }
+  #class .class_text .class_week .text_we .we_bottom p {
+    width: 310px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-top: 30px;
+  }
+  #class .class_text .class_week .text_we .we_bottom h1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 44px;
+    color: #FFFFFF;
+  }
+  #class .class_text .class_week .text_we .we_file .file_circle li {
+    font-weight: 400;
+
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+  }
+  #process .process_learning .learning_h1 p {
+    font-size: 17px;
+    line-height: 24px;
+    width: 361px;
+    text-align: center;
+    margin-left: 0rem;
+  }
+  .community_past {
+    padding-top: 30px;
+    margin-left: 39px;
+  }
+  .community_past .past {
+    width: 344px;
+    height: 420px;
+    border-radius: 10px;
+  }
+  #process .process_learning .community .community_past {
+    padding-bottom: 0;
+    padding-top: 30px;
+    margin-right: 20px;
+  }
+  #process .process_learning .community .community_past .past {
+    width: 345px;
+    height: 436px;
+    border-radius: 10px;
+  }
+  #process .process_learning .community .community_past .past h1 {
+    width: 340px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding-top: 40px;
+    margin-left:-6px;
+  }
+  #process .process_learning .community .community_past .past .btn {
+    margin-left: 8px;
+    padding-top: 35px;
+  }
+  #com_accordion .com_accordion_desc-accordion_label {
+    font-size: 12px;
+  }
+  #program .develop .develop_text h1 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 44px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 15px;
+  }
+  #process .process_learning .community .community_last .last {
+    display: flex;
+    margin-left:6rem;
+    flex-direction: column;
+  }
+  #process .process_learning .community .community_last .last2 {
+    display: flex;
+    margin-left: 41px;
+  }
+
+}
+
+@media (max-width: 320px) {
+  #master .master_class .master_bot .java .java_top h1 {
+    font-size: 22px;
+    line-height: 31px;
+    padding-bottom:10px;
+    padding-top: 30px;
+    text-align: center;
+    margin-left: 10px;
+  }
+  #master .master_class .master_bot .java .java_top p {
+    width: 345px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    padding-bottom: 41px;
+  }
+  #master .master_class .master_bot .java .java_top .btn {
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 30px;
+    width: 285px;
+    height: 70px;
+  }
+  #master .master_class .master_bot .java .java_day {
+    margin-left: -2rem;
+    margin-top: -8rem;
+  }
+  #class .class_text .class_week .text_we .we_bottom h1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 44px;
+    color: #FFFFFF;
+  }
+  #class .class_text .class_week .text_we .we_bottom p {
+    width: 294px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-top: 30px;
+  }
+  #class .class_text .class_week .text_we .we_file h1 {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  #class .class_text .class_week .text_we .we_file .file_circle li {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  #class .class_text .class_week .text_we .buttons .button .btn1 {
+    font-size: 15px;
+    line-height: 20px;
+    width: 258px;
+    height: 64px;
+  }
+  #class .class_text .class_week .text_we .buttons .button1 .btn2 {
+    font-size: 15px;
+    line-height: 20px;
+    width: 259px;
+    height: 64px;
+
+  }
+  #program .program_block .block_input h1 {
+    font-size: 17px;
+    line-height: 44px;
+    padding-top: 8rem;
+    margin-left: 16px;
+  }
+  #program .program_block .block_input .tops {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding: 0 40px;
+    width: 311px;
+    height: 60px;
+    margin-top: 25px;
+  }
+  #program .program_block .block_input .tops span {
+    font-weight: 500;
+    padding: 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  .block_input {
+    margin-left: 2rem;
+  }
+  #program .develop .develop_text h1 {
+    font-size: 19px;
+    line-height: 36px;
+    text-align: center;
+    padding-top: 13px;
+  }
+  #program .develop .develop_text h3 {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10rem;
+  }
+
+#process .process_learning .learning_h1 h1 {
+  font-size: 27px;
+  line-height: 44px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+  #process .process_learning .learning_h1 p {
+    display: none;
+  }
+  #process .process_learning .community .community_last .last .last_app {
+    width: 265px;
+    height: 271px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+  #process .process_learning .community .community_last .last .last_app p {
+    width: 228px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 20px;
+  }
+  #process .process_learning .community .community_last .last .last2 .last_app {
+    width: 266px;
+    height: 271px;
+  }
+  #process .process_learning .community .community_last .last .last2 .last_app p {
+    width: 220px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    margin-left: 31px;
+  }
+  #process .process_learning .community .community_last .last {
+    display: flex;
+    margin-left: 11rem;
+    flex-direction: column;
+  }
+  #process .process_learning .community .community_past .past {
+    width: 313px;
+    height: 404px;
+    border-radius: 10px;
+  }
+  #process .process_learning .community .community_past .past h1 {
+    width: 340px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding-top: 31px;
+    margin-left: -6px;
+  }
+  #process .process_learning .community .community_past .past h3 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 44px;
+    margin-left: 3rem;
+    padding-top: 12px;
+    color: #000000;
+    padding-bottom: 15px;
+  }
+  #process .process_learning .community .community_past .past .btn button {
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 278px;
+    height: 70px;
+  }
+  #process .process_learning .community .community_past .past {
+    width: 313px;
+    height: 404px;
+    border-radius: 10px;
+    margin-left: 15px;
+  }
+  #com_accordion .com_accordion .com_acc h3 {
+    font-size: 25px;
+    line-height: 44px;
+    padding-bottom: 1rem;
+    padding-top: 9rem;
+  }
+  #com_accordion .com_accordion_desc-accordion_label p {
+    margin-right: 100px;
+    font-size: 9px;
+  }
+}

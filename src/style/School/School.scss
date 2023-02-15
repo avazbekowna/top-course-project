@@ -1,0 +1,735 @@
+
+//HERO START
+#hero{
+  color: #FFFFFF;
+  padding-top: 10vw;
+  font-size: 15px;
+  .container{
+    width: 90%;
+  }
+
+  .hero_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    margin-left: -100px;
+    .about_school{
+      .about_school_info{
+        margin-bottom: 40px;
+        h1{
+          margin-bottom: 20px;
+          line-height: 44px;
+          font-weight: 700;
+        }
+        p{
+          line-height: 24px;
+          font-weight: 400;
+        }
+
+      }
+    }
+  }
+}
+//HERO END
+//COURSE_SCHOOL_START
+#Course_school{
+  padding: 10vw 0;
+
+
+  h1{
+    text-align: center;
+    color: #FFFFFF;
+    padding: 30px 0;
+  }
+  .content_school{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    .course_school{
+      width: 370px;
+      height: 310px;
+      background: #FFFFFF;
+      border-radius: 15px;
+      h2{
+        margin: 38px 0 0 22px;
+      }
+      .course-icon{
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        .course-info{
+          color: black;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 20px;
+          border-bottom: 1px solid black;
+
+        }
+        .icon-right{
+          margin-left: 10px;
+        }
+
+      }
+      .text_school{
+        width: 300px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 10px 0 0 20px;
+        p{
+          padding-top: 17px;
+        }
+        .school-icon{
+          margin-top: 10px;
+          display: flex;
+          align-items: center;
+          .course-school-info{
+            color: black;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            border-bottom: 1px solid black;
+          }
+          .icon-right{
+            margin-left: 10px;
+          }
+        }
+
+      }
+
+    }
+  }
+  .click-course{
+    text-align: center;
+    margin-top: 60px;
+    .button-course{
+      color: #FFFFFF;
+      padding: 13px 50px;
+      background-color: #043C71;
+      border-radius: 6px;
+    }
+  }
+}
+//COURSE_SCHOOL_END
+//MASTER_SCHOOL_START
+.master{
+  margin: 0 !important;
+  .content_master{
+    h1{
+      text-align: center;
+      color: #FFFFFF;
+    }
+    .java_content{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .java{
+        background-color: #FFFFFF;
+        margin: 30px 0;
+        width: 1030px;
+        height: 200px;
+        border-radius: 10px;
+
+        .java_info{
+          margin: 54px 0 0 69px;
+          p{
+            width: 800px;
+            margin: 20px 0;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+
+          }
+          h3{
+            width: 755px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            color: #043F75;
+          }
+        }
+      }
+    }
+    .button-master{
+      padding: 17px 45px;
+      background-color: #043C71;
+      color: white;
+      border-radius: 5px;
+    }
+  }
+}
+//MASTER_SCHOOL_END
+//LEVEL_PAKET START
+.level_paket_school{
+
+  .level_paket_top{
+    text-align: center;
+    margin: 50px 0;
+    color: #FFFFFF;
+    h1{
+      margin-bottom: 30px;
+    }
+  }
+  .content_level_year{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .year_level{
+      background-color: #0A1128;
+      height: 310px;
+      width: 360px;
+      border-radius: 10px;
+      box-shadow: 6px 6px 14px -117px #132049, -4px -3px 24px #040B23;
+      .blog_year_list{
+        height: 36px;
+        width: 251px;
+        margin: 26px 0 35px 30px;
+        color: #FFFFFF;
+        .year_top{
+          span{
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+          }
+          p{
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 18px;
+            margin: 10px 0;
+          }
+
+        }
+        h1{
+          margin: 25px 0 20px 0;
+        }
+        .button_year{
+          margin: 39px 0 40px 0;
+          display: flex;
+          align-items: center;
+
+          .button_follow_year{
+            width: 150px;
+            height: 36px;
+            border: none;
+            border-radius: 3.27273px;
+            color: white;
+            background-color: #043C71;
+          }
+          .button_level_year{
+            margin-left: 10px;
+            border: none;
+            border-radius: 3.27273px;
+            color: white;
+            background-color: #043C71;
+            padding: 8px 20px;
+          }
+          .button_follow_year:hover{
+            border: 1px solid #298ADB;
+            transition: .2s ease;
+            background-color: #0A1128;
+          }
+          .button_level_year:hover{
+            border: 1px solid #298ADB;
+            transition: .2s ease;
+            background-color: #0A1128;
+          }
+        }
+      }
+    }
+    .year_level-left{
+      background-color: #0A1128;
+      height: 310px;
+      width: 360px;
+      border-radius: 10px;
+      box-shadow: 6px 6px 14px -117px #132049, -4px -3px 24px #040B23;
+      .blog_year_list-left{
+        height: 36px;
+        width: 251px;
+        margin: 26px 0 35px 30px;
+        color: #FFFFFF;
+        .year_top-left{
+          span{
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+          }
+          p{
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 18px;
+            margin: 10px 0;
+          }
+
+        }
+        h1{
+          margin: 25px 0 20px 0;
+        }
+        .button_year-left{
+          margin: 55px 0 0 0;
+          display: flex;
+          align-items: center;
+
+          .button_follow_year{
+            width: 150px;
+            height: 36px;
+            border: none;
+            border-radius: 3.27273px;
+            color: white;
+            background-color: #043C71;
+          }
+          .button_level_year{
+            margin-left: 10px;
+            border: none;
+            border-radius: 3.27273px;
+            color: white;
+            background-color: #043C71;
+            padding: 8px 20px;
+          }
+          .button_follow_year:hover{
+            border: 1px solid #298ADB;
+            transition: .2s ease;
+            background-color: #0A1128;
+          }
+          .button_level_year:hover{
+            border: 1px solid #298ADB;
+            transition: .2s ease;
+            background-color: #0A1128;
+          }
+        }
+      }
+    }
+  }
+}
+//LEVEL_PAKET END
+
+//COMMENT_SCHOOL START
+#slider {
+  margin: 10px 0;
+
+  .slider--general {
+    h3 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      text-align: center;
+      padding: 100px 0;
+      color: #FFFFFF;
+    }
+    &__block {
+      width: 95% !important;
+      height: 292px;
+      background: #102146;
+      border-radius: 10px;
+      margin: 100px 0;
+
+      img {
+        width: 25%;
+        height: 28%;
+        margin-left: 140px;
+        margin-top: -40px;
+      }
+    }
+    h1 {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 20px;
+      text-align: center;
+      color: #FFFFFF;
+      width: 307px;
+      margin-left: 10%;
+    }
+
+    h2 {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      margin-left: 70%;
+      color: #FFFFFF;
+    }
+  }
+}
+//COMMENT_SCHOOL END
+//FORM-SCHOOL START
+.form_school{
+  padding: 10vw 0;
+  .form_school_content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: white;
+    .form_text{
+      p{
+        margin: 30px 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+    .form_input{
+      .name{
+        width: 610px;
+        height: 57px;
+        background: rgba(27, 41, 89, 0.4);
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0 30px;
+      }
+      .call_form_school{
+        margin: 30px 0;
+        .call_form{
+          width: 610px;
+          height: 57px;
+          background: rgba(27, 41, 89, 0.4);
+          border-radius: 10px;
+          border: none;
+          outline: none;
+          color: #FFFFFF;
+          font-size: 20px;
+          padding: 0 30px;
+        }
+      }
+
+      .gmail_form{
+        width: 610px;
+        height: 57px;
+        background: rgba(27, 41, 89, 0.4);
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0 30px;
+      }
+      .button_form_school{
+        margin: 30px 0;
+        .button_form{
+          width: 271px;
+          height: 56px;
+          background: #044076;
+          border-radius: 10px;
+          border: none;
+          user-select: none;
+          color: #FFFFFF;
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}
+//FORM-SCHOOL END
+
+
+@media (max-width: 1024px) {
+  #Course_school{
+    .content_school{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .course_school{
+        width: 450px;
+        margin: 20px 0;
+      }
+    }
+  }
+  #master{
+    .java_content{
+      .java{
+        width: 900px !important;
+        .java_info{
+          p{
+            width: 100%;
+          }
+          h3{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  #level_paket_school{
+    .level_paket_content{
+      .content_level_year{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .year_level{
+          margin: 20px 0;
+        }
+        .year_level-left{
+          margin: 20px 0;
+        }
+      }
+    }
+  }
+  .form_school{
+    .form_school_content{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .form_text{
+        text-align: center;
+      }
+    }
+  }
+  #hero .hero_content {
+    margin-left: -7px;
+  }
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+  #hero{
+    .hero_content{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .about_school{
+        .about_school_info {
+          text-align: center;
+        }
+      }
+    }
+  }
+  #master{
+    .content_master{
+      .java_content{
+        .java{
+          width: 100% !important;
+          .java_info{
+            margin: 25px 0;
+            text-align: center;
+            p{
+              width: 100%;
+            }
+            h3{
+              width: 100%;
+            }
+
+          }
+        }
+      }
+    }
+  }
+  #level_paket_school{
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .form_school .form_school_content .form_input {
+    margin-left: -141px !important;
+  }
+  .form_school .form_school_content .form_input {
+    margin-left: -8px !important;
+  }
+  #hero{
+
+  }
+  #slider{
+    .slick-next:before {
+      display: none;
+    }
+    .slick-prev:before {
+      display: none;
+    }
+    .slider--general{
+      .slider--general__block{
+        height: 312px !important;
+
+      }
+      .slider--general__block img {
+        margin-left: 178px;
+      }
+      .slider--general__block p {
+        width: 80% !important;
+        margin-left: 10%;
+      }
+    }
+  }
+  #master {
+    padding: 0 !important;
+  }
+}
+@media (max-width: 451px) {
+  #hero{
+    .hero_content{
+      .about_school_img{
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+  #Course_school{
+    .content_school{
+      .course_school{
+        width: 100%;
+      }
+    }
+  }
+  #master{
+    margin: 0 !important;
+    .content_master{
+      .java_content{
+        .java{
+          height: 40vh;
+        }
+      }
+    }
+  }
+  #slider{
+    padding-left: 50px !important;
+  }
+  #slider .slider--general .slider--general__block img {
+    margin-left: 146px;
+  }
+}
+@media (max-width: 400px) {
+  #slider{
+    padding-left: 71px !important;
+
+  .slider--general{
+    .slider--general__block{
+      img {
+        margin-left: 119px;
+      }
+      p{
+        font-size: 12px;
+      }
+    }
+  }
+  }
+  .form_school .form_school_content .form_input {
+    margin-left: 10px;
+    width: 100%;
+  }
+}
+@media (max-width: 376px) {
+  #master .content_master .java_content .java .java_info p {
+    width: 95%;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 7px;
+  }
+  #level_paket_school{
+    .level_paket_content{
+      .content_level_year{
+        .year_level {
+          width: 100%;
+        }
+        .year_level-left{
+          width: 100%;
+        }
+      }
+    }
+  }
+  #slider .slider--general .slider--general__block p {
+    width: 90% !important;
+    margin-left: 5%;
+  }
+  #slider .slider--general .slider--general__block img {
+    margin-left: 106px;
+  }
+  .form_school{
+    margin-right: 0;
+  }
+}
+@media (max-width: 320px) {
+  #hero{
+    margin-top: 10vh;
+  }
+  #Course_school{
+    .content_school{
+      .course_school{
+        width: 100%;
+        h2{
+          margin: 19px 0 0 22px;
+        }
+        .text_school{
+          width: 100%;
+          p {
+            padding-top: 17px;
+            font-size: 13px;
+            width: 90%;
+          }
+        }
+      }
+    }
+  }
+  #master .content_master .java_content .java .java_info h3 {
+    font-size: 15px;
+  }
+  .level_paket_school{
+    .content_level_year{
+      .year_level-left{
+        .blog_year_list-left{
+          .button_year-left{
+            margin: 55px 0 0 -13px;
+            display: flex;
+            align-items: center;
+            .button_follow_year {
+              width: 132px;
+              height: 31px;
+              font-size: 10px;
+            }
+            .button_level_year{
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      .year_level{
+        .blog_year_list{
+          .button_year{
+            margin: 55px 0 0 -23px;
+            display: flex;
+            align-items: center;
+            .button_follow-year{
+              width: 132px;
+              height: 31px;
+              font-size: 10px;
+            }
+            .button_level_year{
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .level_paket_school .content_level_year .year_level .blog_year_list .button_year .button_follow_year {
+    width: 144px;
+    height: 31px;
+    font-size: 10px;
+  }
+  #slider{
+    padding-left: 64px !important;
+    //padding-left: 56px !important;
+    .slider--general{
+      .slider--general__block {
+        height: 313px !important;
+        p{
+          font-size: 10px;
+        }
+        img{
+          margin-left: 90px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,747 @@
+@import "../../../../../../../top-course/src/style/variables";
+@import "../../../../../../../top-course/src/style/mixin";
+
+// Main Header
+#header {
+  .header {
+    &-buttons {
+      &_bell-icon {
+        font-size: 24px;
+        color: $light;
+      }
+
+      &_profile {
+        font-weight: 400;
+        font-size: 16px;
+        color: $light;
+        padding: 10px 41px;
+        background-color: transparent;
+        border: 2px solid #034078;
+        border-radius: 10px;
+      }
+
+    }
+    .burger2{
+      display: none;
+    }
+  }
+}
+
+// 1)First Section (Главная / Мастер классы /Frontend разработчик)
+#first-section {
+  padding: 150px 0 180px 0;
+
+  .first-section {
+    &_links {
+      padding-bottom: 80px;
+
+      span {
+        font-weight: 400;
+        font-size: $font-size16;
+        color: #A5A5A5;
+
+        &.active {
+          color: $light;
+        }
+      }
+    }
+
+    &_group {
+      @include alignment-start;
+      justify-content: normal;
+      column-gap: 200px;
+
+      &-desc {
+        width: 45%;
+
+        h1 {
+          font-weight: 700;
+          font-size: $font-size36;
+          color: $light;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: $font-size16;
+          line-height: 24px;
+          color: $light;
+        }
+      }
+
+      &-range {
+        width: 32%;
+
+        &_title {
+          font-weight: 700;
+          font-size: 20px;
+          color: $light;
+        }
+
+        &_blog {
+          @include d-f_fd-c_al-c;
+          align-items: end;
+          row-gap: 4px;
+          padding: 30px 0;
+
+          span {
+            font-weight: 400;
+            font-size: 12px;
+            color: $light;
+          }
+
+          div {
+            width: 100%;
+            height: 10px;
+            background: #D9D9D9;
+            border-radius: 5px;
+
+            div {
+              width: 10%;
+              height: 10px;
+              background: #086EBB;
+              border-radius: 5px;
+            }
+          }
+        }
+
+        &_group {
+          width: 80%;
+          @include alignment-start;
+
+          &-blog {
+            width: 42%;
+            text-align: center;
+
+            p {
+              font-weight: 400;
+              font-size: $font-size16;
+              line-height: 24px;
+              color: $light;
+              padding-bottom: 15px;
+            }
+
+            span {
+              font-weight: 700;
+              font-size: 20px;
+              color: $light;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// 2) Course Program (ПРОГРАММА КУРСА )
+#course-program {
+  padding-bottom: 180px;
+
+  .course-program {
+    &_title {
+      font-weight: 700;
+      font-size: $font-size36;
+      color: $light;
+      margin-bottom: 50px;
+    }
+
+    &_group {
+      @include alignment-start;
+
+      &-video {
+        width: 45%;
+
+        iframe {
+          width: 100%;
+        }
+      }
+
+      &-blogs {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+
+        &_blog {
+          position: relative;
+          min-height: 80px;
+          border-bottom: 2px solid $bg-medium;
+
+          &-btn {
+            @include button;
+            font-weight: 500;
+            font-size: $font-size20;
+            text-transform: capitalize;
+            color: $light;
+            padding: 22px 28px;
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+
+          details {
+            summary {
+              list-style: none;
+              font-weight: 500;
+              font-size: 20px;
+              text-transform: capitalize;
+              color: $light;
+              padding-left: 180px;
+            }
+
+            .blogs {
+              padding-top: 75px;
+              @include d-f_fd-c_al-s;
+              row-gap: 22px;
+
+              &-group {
+                width: 90%;
+                @include alignment-start;
+                justify-content: normal;
+                column-gap: 24px;
+                padding: 14px 17px;
+                transition: all .4s ease-in;
+
+                &_video {
+                  width: 20%;
+                  height: 65px;
+
+                  iframe {
+                    width: 100%;
+                    height: 100%;
+                  }
+                }
+
+                &_blog {
+                  width: 70%;
+
+                  h2 {
+                    font-weight: 500;
+                    font-size: $font-size20;
+                    text-transform: capitalize;
+                    color: $light;
+                    margin-bottom: 13px;
+                  }
+
+                  button {
+                    font-weight: 400;
+                    font-size: 12px;
+                    text-transform: capitalize;
+                    color: $light;
+                    padding: 6px 12px;
+                    background: rgba(27, 41, 89, 0.4);
+                    border-radius: 2px;
+                  }
+                }
+
+                &:hover {
+                  background: rgba(27, 41, 89, 0.4);
+                  border-radius: 10px;
+                }
+              }
+            }
+          }
+
+          &-btn2 {
+            font-weight: 600;
+            font-size: 12px;
+            text-transform: capitalize;
+            color: $light;
+            padding: 7px 12px;
+            background: rgba(27, 41, 89, 0.4);
+            border-radius: 2px;
+            position: absolute;
+            top: 36px;
+            left: 180px;
+            z-index: 10;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+  #access-comments .access-comments {
+    width: 100%!important;
+  }
+}
+
+@media (max-width: 992px) {
+  #course-program {
+    .course-program {
+      &_group {
+        &-video {
+          height: 250px;
+
+          iframe {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+  #access-comments .access-comments {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    .header {
+      .burger2 {
+        display: block;
+        position: fixed;
+        top: 10px;
+        right: 0;
+        z-index: 106;
+
+        .burger-input2 {
+          display: none;
+        }
+
+        .burger-label2 {
+          padding: 38px 70px;
+          position: absolute;
+          top: 0;
+          right: 38px;
+          z-index: 110;
+
+          &::before {
+            content: " ";
+            position: absolute;
+            left: 100px;
+            width: 40px;
+            height: 5px;
+            background-color: #FFFFFF;
+            border-radius: 2px;
+            top: 41px;
+            transition: .5s ease;
+          }
+
+          &::after {
+            content: " ";
+            position: absolute;
+            left: 100px;
+            width: 40px;
+            height: 5px;
+            background-color: #FFFFFF;
+            border-radius: 2px;
+            top: 41px;
+            transition: .5s ease;
+          }
+        }
+
+        .burger-menu2 {
+          position: absolute;
+          top: 0;
+          width: 100%;
+          padding: 38px 25px !important;
+          transition: .2s ease;
+          z-index: 0;
+
+          &::before {
+            content: "";
+            position: absolute;
+            top: 28px;
+            right: 88px;
+            width: 40px;
+            height: 5px;
+            background-color: #FFFFFF;
+            border-radius: 2px;
+            transition: .5s ease;
+          }
+
+          &::after {
+            content: "";
+            position: absolute;
+            top: 54px;
+            right: 88px;
+            width: 40px;
+            height: 5px;
+            background-color: #FFFFFF;
+            border-radius: 2px;
+            transition: .5s ease;
+          }
+
+          li {
+            line-height: 0.5;
+            pointer-events: none;
+            opacity: 0;
+
+            .nav-header2 {
+              color: #fff;
+              font-size: 20px;
+              border-left: 20px solid $bg-medium;
+              border-right: 20px solid transparent;
+              border-radius: 8px;
+              padding: 7px 9px 7px 9px;
+              transition: all .4s ease-in;
+
+              &:hover {
+                border-top: 2px solid $bg-medium;
+                border-bottom: 2px solid $bg-medium;
+                border-right: 20px solid $bg-medium;
+              }
+
+              &:focus {
+                color: #F50057;
+                font-weight: 700;
+                transition: .2s linear;
+              }
+            }
+          }
+
+          &_group {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 7px 9px 7px 9px;
+            border-top: 2px solid $bg-medium;
+            border-bottom: 2px solid $bg-medium;
+            border-left: 20px solid $bg-medium;
+            border-right: 20px solid $bg-medium;
+            border-radius: 8px;
+
+            .nav-right2 {
+              color: $light;
+              font-size: 23px;
+              margin-top: 6px;
+            }
+
+            .button-header2 {
+              font-weight: 400;
+              font-size: 15px;
+              color: $light;
+              padding: 6px 18px;
+              background-color: transparent;
+              border: 2px solid #034078;
+              border-radius: 10px;
+            }
+          }
+        }
+
+        #menu-toggle2:checked + label:before {
+          top: 45px;
+          right: 20px;
+          transform: rotate(-45deg);
+        }
+
+        #menu-toggle2:checked + label:after {
+          top: 45px;
+          right: 20px;
+          transform: rotate(45deg);
+        }
+
+        #menu-toggle2:checked + label + .burger-menu2 {
+          top: 95px;
+          right: 0;
+          width: 262px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+          transition: .3s ease .2s;
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          background-color: #0A1128;
+
+          &::before {
+            display: none;
+          }
+
+          &::after {
+            display: none;
+          }
+        }
+
+        #menu-toggle2:checked + label + .burger-menu2 li {
+
+          pointer-events: all;
+          line-height: 1.8;
+          opacity: 1;
+          z-index: 104;
+          transition: .2s ease .3s;
+        }
+      }
+    }
+  }
+  #first-section {
+    .first-section {
+      &_group {
+        flex-wrap: wrap;
+        gap: 65px;
+
+        &-desc {
+          width: 100%;
+          text-align: center;
+
+          h1 {
+            padding-bottom: 20px;
+          }
+
+          p {
+            width: 80%;
+            margin: 0 auto;
+          }
+        }
+
+        &-range {
+          width: 78%;
+          margin: 0 auto;
+
+          &_group {
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+  #course-program {
+    .course-program {
+      &_group {
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 40px;
+
+        &-video {
+          width: 80%;
+        }
+
+        &-blogs {
+          width: 80%;
+        }
+      }
+    }
+  }
+  #access-comments .access-comments {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #first-section {
+    .first-section {
+      &_group {
+        &-range {
+          width: 85%;
+
+          &_group {
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+  #course-program {
+    .course-program {
+      &_title {
+        font-size: 30px;
+      }
+
+      &_group {
+        &-video {
+          width: 100%;
+        }
+
+        &-blogs {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #first-section {
+    .first-section {
+      &_links {
+        span {
+          font-size: 12px;
+        }
+      }
+
+      &_group {
+        &-desc {
+          h1 {
+            font-size: 30px;
+          }
+
+          p {
+            width: 88%;
+          }
+        }
+      }
+    }
+  }
+  #course-program {
+    .course-program {
+      &_group {
+        &-video {
+          height: 230px;
+
+          iframe {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        &-blogs {
+          &_blog {
+            &-btn {
+              padding: 14px 18px;
+              font-size: 16px;
+            }
+
+            details {
+              summary {
+                padding-left: 132px;
+                font-size: 17px;
+              }
+
+              .blogs {
+                &-group {
+                  width: 100%;
+
+                  &_video {
+                    width: 28%;
+                    height: 46px;
+                  }
+
+                  &_blog {
+                    h2 {
+                      font-size: 15px;
+                    }
+                  }
+                }
+              }
+            }
+
+            &-btn2 {
+              top: 25px;
+              left: 132px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #access-comments {
+    .access-comments {
+      &_blogs {
+        &-blog {
+          &_top-group {
+            gap: 15px !important;
+
+            &_bg {
+              div {
+                width: 65px !important;
+                height: 65px !important;
+              }
+            }
+
+            &_desc {
+              &-group {
+                column-gap: 18px;
+
+                &_user-name {
+                  font-size: 13px !important;
+                }
+
+                &_time {
+                  font-size: 12px !important;
+                }
+              }
+
+              &-p {
+                font-size: 14px !important;
+                line-height: 17px !important;
+              }
+
+              details {
+                .details-block {
+                  gap: 12px !important;
+
+                  .desc {
+                    &-group {
+                      &_user-name {
+                        font-size: 13px !important;
+                      }
+
+                      &_time {
+                        font-size: 11px;
+                      }
+                    }
+
+                    &-p {
+                      font-size: 13px !important;
+                      line-height: 16px !important;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #first-section {
+    .first-section {
+      &_group {
+        &-desc {
+          h1 {
+            font-size: 26px;
+          }
+
+          p {
+            width: 95%;
+          }
+        }
+
+        &-range {
+          width: 100%;
+        }
+      }
+    }
+  }
+  #course-program {
+    .course-program {
+      &_title {
+        font-size: 26px;
+      }
+
+      &_group {
+        &-video {
+          height: 200px;
+
+          iframe {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+  #access-comments {
+    .access-comments {
+      width: 100%;
+      &_blogs {
+        &-blog {
+          &_top-group {
+            &_desc {
+              details {
+                .details-block {
+                  margin-left: -68px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
